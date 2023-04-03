@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    margin: 0;
+    overflow: hidden;
+}
+
+.cover-text {
+text-align: left;
+color: white;
+user-select: none;
+}
+
+.font01 {
+font-family: 'Noto Sans', sans-serif;
+}
+.font02 {
+font-family: 'Alkatra', cursive;
+}
+
+.center {
+position: absolute;
+top: 50%;
+left: 2.5%;
+transform: translateY(-50%);
+}
+
+.material-symbols-outlined {
+font-family: "Material Symbols Outlined";
+font-size: 48px;
+color: white;
+background-color: transparent;
+}
+
+.cover-lower-text {
+user-select: none;
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+#start {
+height: 100vh;
+}
+
+.cover-subline {
+font-size: 125%;
+transition-duration: 500ms;
+}
+.cover-subline:hover {
+font-size: 140%;
+transition-duration: 1s;
+cursor: none;
+}
+
+
+/* COLOURS */
+.red {
+color:rgb(253, 138, 138);
+}
+
+.green {
+color: rgb(156, 248, 156);
+}
+
+.gray {
+color: rgb(88, 86, 86);
+}
+.white {
+color: white;
+}
+.yellow {
+color: rgb(250, 237, 123);
+}
+
+.blue {
+color: rgb(120, 120, 247);
+}
+.pink {
+color: pink;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+/* PIJL - START */
+.cover-arrow {
+font-size: 250%;
+transition-duration: 500ms;
+animation: ani-cover-arrow ease-in-out 2s infinite;
+}
+
+
+@keyframes ani-cover-arrow {
+0% {
+font-size: 250%;
+}
+50% {
+font-size: 375%;
+}
+100% {
+font-size: 250%;
+}
+}
